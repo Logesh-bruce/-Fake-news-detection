@@ -7,7 +7,7 @@ This project is an end-to-end NLP-based machine learning system that classifies 
 The model processes raw news text, converts it into numerical features using TF-IDF vectorization, and trains a Passive-Aggressive classifier for binary classification.
 
 ---
-
+ 
 ##  Machine Learning Pipeline
 
 1. Data preprocessing
