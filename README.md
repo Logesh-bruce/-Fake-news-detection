@@ -42,7 +42,7 @@ The model processes raw news text, converts it into numerical features using TF-
 - Streamlit
 - Matplotlib & Seaborn
 
----
+--- 
 
 ##  How to Run Locally
 
