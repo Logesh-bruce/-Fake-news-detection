@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
  
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
-
+ 
 # Load model and vectorizer
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
