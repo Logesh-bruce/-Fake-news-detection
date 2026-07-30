@@ -10,7 +10,7 @@ stop_words = set(stopwords.words('english'))
 # Load model and vectorizer
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
-
+ 
 def clean_text(text):
     text = text.lower()
     text = re.sub(r'\d+', '', text)
